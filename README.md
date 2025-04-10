@@ -7,6 +7,7 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 ## Table of Contents
 1. [Singleton Pattern](#singleton-pattern) 
 2. [Docker](#docker) 
+2. [GitHub Actions](#github-actions) 
 
 ---
 
@@ -26,4 +27,13 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 * **When to use it?:** Always, let me repeat that: A L W A Y S.
 * **Example given:** Implementation of a docker local deployment for a full stack project (front + back +db)
 
+---
+
+## GitHub Actions
+*yaml*
+
+> This technology allows you to automatically execute workflows for testing, building, and deploying your code.
+* **When to use it?:** When you want to integrate a CI/CD pipeline.
+* **Example given:** Workflow for testing some backend code, building a docker image and deploying it to a kubernetes k3s cluster
+s
 ---
