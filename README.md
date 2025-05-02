@@ -29,7 +29,7 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 
 ---
 
-## GitHub Actions
+## [GitHub Actions](https://www.linkedin.com/posts/danielcrobledo_how-we-saved-10-hours-a-week-with-github-activity-7317803916115566592-Jmdv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2NYPIBAc8RXtHnKfsTt7ZC5Q6ed9h_1ks)
 *yaml*
 
 > This technology allows you to automatically execute workflows for testing, building, and deploying your code.
