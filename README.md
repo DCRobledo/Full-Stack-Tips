@@ -7,7 +7,8 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 ## Table of Contents
 1. [Singleton Pattern](#singleton-pattern) 
 2. [Docker](#docker) 
-2. [GitHub Actions](#github-actions) 
+3. [GitHub Actions](#github-actions) 
+4. [Robot Pattern for UI Testing](#robot-pattern)
 
 ---
 
@@ -16,7 +17,7 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 
 > The Singleton Pattern ensures a class has only one instance and provides global access to it. It's commonly used for managing global states or shared resources across an application.
 * **When to use it?:** Use the Singleton pattern when you need centralized access to a single instance across different parts of the application (e.g., configuration, database connections).
-* **Example given:** Implementation of a config file accesible from anywhere to store some API URL
+* **Example given:** Implementation of a config file accessible from anywhere to store some API URL
 
 ---
 
@@ -25,7 +26,7 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 
 > Docker is a technology for encapsulating your applications' environments and deploying them to users.
 * **When to use it?:** Always, let me repeat that: A L W A Y S.
-* **Example given:** Implementation of a docker local deployment for a full stack project (front + back +db)
+* **Example given:** Implementation of a docker local deployment for a full stack project (front + back + db)
 
 ---
 
@@ -35,5 +36,14 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 > This technology allows you to automatically execute workflows for testing, building, and deploying your code.
 * **When to use it?:** When you want to integrate a CI/CD pipeline.
 * **Example given:** Workflow for testing some backend code, building a docker image and deploying it to a kubernetes k3s cluster
-s
+
+---
+
+## Robot Pattern
+*Kotlin, Jetpack Compose*
+
+> The Robot Pattern brings structure and readability to your UI tests by encapsulating interactions and assertions in reusable classes.
+* **When to use it?:** When your Compose UI tests start becoming repetitive, brittle, or hard to maintain — especially in fast-paced or large codebases.
+* **Example given:** Step-by-step Compose UI test refactoring using robots to improve maintainability and scalability.
+
 ---
