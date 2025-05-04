@@ -8,7 +8,7 @@ Here you can find all the code regarding my weekly full stack tips post on [Link
 1. [Singleton Pattern](#singleton-pattern) 
 2. [Docker](#docker) 
 3. [GitHub Actions](#github-actions) 
-4. [Robot Pattern for UI Testing](#robot-pattern)
+4. [Robot Pattern](#robot-pattern)
 
 ---
 
